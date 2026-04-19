@@ -1,0 +1,26 @@
+APJ lecture hall, Student Centre
+APJ lecture hall, Student Activity Centre
+APJ lecture hall, Boys Hostel
+Student Centre, Library
+Student Centre, Block 6
+Library, Block 6
+Block 6, Block 5
+Block 5, Block 4
+Block 5, Block 8A
+Block 5, TnP
+Block 8A, Block 4
+Block 4, Admin Block
+Admin Block, Nescafe
+Admin Block, Block 6
+Nescafe, Sports Complex
+Nescafe, Block 6
+Sports Complex, TnP
+Sports Complex, Girls Hostel
+Sports Complex, Boys Hostel
+Boys Hostel, Girls Hostel
+Boys Hostel, Department of Design
+Girls Hostel, Department of Design
+Department of Design, TnP
+Department of Design, Guest House
+TnP, Guest House
+Student Activity Centre, Guest House

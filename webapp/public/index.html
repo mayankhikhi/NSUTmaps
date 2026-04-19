@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NSUT maps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <main class="layout">
+    <section class="hero card reveal">
+      <p class="kicker">NSUT Campus</p>
+      <h1>NSUT maps</h1>
+      <p class="sub">Pick two locations and see a visual route drawn directly on the campus map.</p>
+    </section>
+
+    <section class="controls card reveal">
+      <label>
+        From
+        <select id="fromLocation"></select>
+      </label>
+      <label>
+        To
+        <select id="toLocation"></select>
+      </label>
+      <button id="findBtn">Find Shortest Path</button>
+      <p id="status" class="status"></p>
+    </section>
+
+    <section class="map card reveal">
+      <h2>Visual Route</h2>
+      <canvas id="routeCanvas" width="768" height="1183" aria-label="NSUT route map"></canvas>
+      <p class="hint">Map source: src/map.jpeg (loaded automatically).</p>
+    </section>
+
+    <section class="result card reveal">
+      <h2>Route Summary</h2>
+      <p id="pathSummary" class="path-summary">No route selected yet.</p>
+      <p id="hopCount" class="hop-count"></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
