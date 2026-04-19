@@ -1,4 +1,4 @@
-# NSUT Campus DSA Application
+# NSUTmaps
 
 This project models NSUT campus locations and their connections using a graph data structure.
 
@@ -76,4 +76,4 @@ Then open `http://localhost:3000` in your browser.
 ## Notes
 
 - Data files are read from `data/locations.txt` and `data/edges.txt`.
-- Shortest path is computed using BFS on an unweighted graph.
+- Shortest path is computed using weighted Dijkstra in the web backend.
